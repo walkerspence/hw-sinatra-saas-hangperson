@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d00ff109-9972-448c-95b7-f288d17c5553" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/guess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/guess.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,22 +13,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="710">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guess.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="guess.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/guess.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repeated_guess.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/repeated_guess.feature">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="start_new_game.feature" pinned="false" current-in-tab="false">
@@ -50,23 +54,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/game_steps.rb">
+      <file leaf-file-name="new.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/new.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lose.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/lose.erb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="win.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/win.erb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="game_over.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/game_over.feature">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="hangperson_game_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/hangperson_game_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="hangperson_game.rb" pinned="false" current-in-tab="false">
@@ -89,8 +98,8 @@
         <option value="$PROJECT_DIR$/spec/hangperson_game_spec.rb" />
         <option value="$PROJECT_DIR$/lib/hangperson_game.rb" />
         <option value="$PROJECT_DIR$/views/new.erb" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/features/guess.feature" />
+        <option value="$PROJECT_DIR$/app.rb" />
       </list>
     </option>
   </component>
@@ -181,12 +190,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549926397708</updated>
-      <workItem from="1549926399024" duration="5675000" />
+      <workItem from="1549926399024" duration="6527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5675000" />
+    <option name="totallyTimeSpent" value="6527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -220,6 +229,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/game_steps.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/new.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -227,35 +239,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/repeated_guess.feature">
+    <entry file="file://$PROJECT_DIR$/views/lose.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/start_new_game.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/show.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/game_steps.rb">
+    <entry file="file://$PROJECT_DIR$/views/win.erb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/game_over.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/hangperson_game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -271,10 +259,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/game_over.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/start_new_game.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/repeated_guess.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/show.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/guess.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>
