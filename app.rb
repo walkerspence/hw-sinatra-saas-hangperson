@@ -56,8 +56,9 @@ class HangpersonApp < Sinatra::Base
   # wrong_guesses and word_with_guesses from @game.
   get '/show' do
     check = @game.check_win_or_lose
-    redirect 'win' if check == :win
-    redirect 'lose' if check == :lose
+    redirect '/new' if check == :new 
+    redirect '/win' if check == :win
+    redirect '/lose' if check == :lose
     erb :show
   end
   
@@ -69,7 +70,7 @@ class HangpersonApp < Sinatra::Base
   
   get '/lose' do
     check = @game.check_win_or_lose
-    redirect 'show' unless check == :lose
+    redirect '/show' unless check == :lose
     erb :lose # You may change/remove this line
   end
 end
