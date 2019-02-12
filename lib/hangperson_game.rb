@@ -17,7 +17,7 @@ class HangpersonGame
   def guess(letter)
     raise ArgumentError.new("Guess must not be nil") if letter.nil?
     raise ArgumentError.new("Guess cannot be empty") if letter == ''
-    raise ArgumentError.new("Guess must be a letter") unless /[A-z]/.match(letter)
+    raise ArgumentError.new("Guess must be a letter") unless /[a-zA-Z]/.match(letter)
     letter.downcase!
 
 
